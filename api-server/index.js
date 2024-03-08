@@ -7,7 +7,7 @@ const Redis = require('ioredis')
 const app = express()
 const PORT = 9000
 
-const subscriber = new Redis('rediss://default:AVNS_mSh-YuafTcPGFXNPRnc@redis-23075481-yashgiradkar02-3cad.a.aivencloud.com:16756')
+const subscriber = new Redis('rediss://default:AVNS_mSh-YuafTcPGFXNPRnc@redis-23075481-yashgiradkar02-3cad.a.aivencloud.com:1756')
 
 const io = new Server({ cors: '*' })
 
